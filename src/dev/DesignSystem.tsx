@@ -26,9 +26,9 @@ const DesignSystem = () => {
 					</div>
 				</div>
 
-				<h1 className="heading-xl">Heading-xl</h1>
+				<h1 className="heading-xl">heading-xl</h1>
 				<h2 className="heading-l">heading-l</h2>
-				<h3 className='heading-m'>Heading-m</h3>
+				<h3 className='heading-m'>heading-m</h3>
 				<p className='body-l'>body-l ... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse sunt quia, deleniti dignissimos nisi, deserunt quaerat id commodi laborum corporis magnam facilis eos odit provident blanditiis ut inventore libero laboriosam.</p>
 			</div>
 		</div>

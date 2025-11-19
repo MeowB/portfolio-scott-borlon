@@ -3,29 +3,30 @@
 
 
 @theme {
-    --font-display: "Space Grotesk", "sans-serif";
+	--font-display: "Space Grotesk", "sans-serif";
 
-    --breakpoint-sm: 480px;
+	--breakpoint-sm: 480px;
 
-    --color-white: #ffffff;
-    --color-gray: #d9d9d9;
-    --color-gray-dark: #242424;
-    --color-black: #151515;
-    --color-primary: #ffa652;
+	--color-white: #ffffff;
+	--color-gray: #d9d9d9;
+	--color-gray-dark: #242424;
+	--color-black: #151515;
+	--color-primary: #ffa652;
 }
 
 @layer base {
-    * {
-        font-family: var(--font-display);
-    }
+	* {
+		font-family: var(--font-display);
+	}
 
 	.frame {
 		padding: 40px 165px 92px 164px;
-		
+		background-color: var(--color-gray-dark);
+
 		@media (max-width: 1024px) {
 			padding: 0 30px;
 
-			@media (max-width: 375px) {
+			@media (max-width: 480px) {
 				padding: 20px 0;
 				display: flex;
 				flex-direction: column;
@@ -34,52 +35,58 @@
 		}
 	}
 
-    .icon {
-        fill: white;
+	.icon {
+		fill: var(--color-white);
 
-        :hover {
-            fill: #ffa652
-        }
-    }
+		:hover {
+			fill: var(--color-primary)
+		}
+	}
 }
 
 @layer components {
-    .heading-xl {
-        font-size: 88px;
-        line-height: 88px;
-        letter-spacing: -2.5px;
-        font-weight: 700;
+	.heading-xl {
+		font-size: 88px;
+		line-height: 88px;
+		letter-spacing: -2.5px;
+		font-weight: 700;
 
-		@media (max-width: 768px) {
+		@media (max-width: 1024px) {
 			font-size: 72px;
 			line-height: 72px;
 			letter-spacing: -2.05px;
 
-			@media (max-width: 375px) {
+			@media (max-width: 480px) {
 				font-size: 40px;
 				line-height: 40px;
 				letter-spacing: -1.14px;
 			}
 		}
 
-    }
+	}
 
-    .heading-l {
-        font-size: 48px;
-        line-height: 56px;
-        letter-spacing: -1.5px;
-        font-weight: 700;
-    }
+	.heading-l {
+		font-size: 48px;
+		line-height: 56px;
+		letter-spacing: -1.5px;
+		font-weight: 700;
 
-    .heading-m {
-        font-size: 24px;
-        line-height: 32px;
-        font-weight: 700;
-    }
+		@media (max-width: 1024px) {
+			font-size: 36px;
+			line-height: 36px;
+			letter-spacing: -1.05px;
+		}
+	}
 
-    .text-body {
-        font-size: 18px;
-        line-height: 28px;
-        font-weight: 500;
-    }
+	.heading-m {
+		font-size: 24px;
+		line-height: 32px;
+		font-weight: 700;
+	}
+
+	.text-body {
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 500;
+	}
 }
