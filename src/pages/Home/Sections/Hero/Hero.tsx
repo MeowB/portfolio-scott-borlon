@@ -25,7 +25,7 @@ const Hero = () => {
 					<img src={me} alt="picture of Scott Borlon" />
 				</div>
 			</div>
-			<div className="absolute w-full h-full z-0"> <img src={oval} alt="oval in the background" className="absolute right-[-60px] top-[480px]"/> <img src={lines} alt="lines in the background" className="absolute left-[-320px] top-30" /> </div>
+			<div className="absolute w-full h-full z-0"> <img src={oval} alt="oval in the background" className="absolute right-[-60px] top-[480px]"/> <img src={lines} alt="lines in the background" className="absolute -left-80 top-30" /> </div>
 			<div
 				className="
 			pt-60 sm:pt-82 md:pt-32
