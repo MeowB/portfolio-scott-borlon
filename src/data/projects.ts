@@ -6,7 +6,7 @@ export type projectType = {
 	techstack: string[];
 }
 
-export const projects: project[] = [
+export const projects: projectType[] = [
 	{
 		title: "User Manager",
 		image: "", // replace with actual path
