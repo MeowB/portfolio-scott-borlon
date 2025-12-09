@@ -1,14 +1,17 @@
 type ButtonProps = {
 	onClick?: () => void;
-	text:string;
-	props?: string;
+	text: string;
+	className?: string;
+	type?: "button" | "submit" | "reset";
 }
 
 
-const Button = ({ text, props, onClick }: ButtonProps) => {
+const Button = ({ text, className = "", onClick, type = "button" }: ButtonProps) => {
 	return (
-		<button className={
-			`${props}
+		<button
+			type={type}
+			className={
+				`${className}
 			max-h-11
 			py-2
 			px-0.5
@@ -20,7 +23,7 @@ const Button = ({ text, props, onClick }: ButtonProps) => {
 			hover:cursor-pointer
 			`}
 			onClick={onClick}
-			>
+		>
 			{text}
 		</button>
 	)

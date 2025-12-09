@@ -80,7 +80,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 			mt-2
 			xl:hidden
 			">
-				<Button text="VIEW PROJECT" props="mr-8" onClick={() => window.open(project.projectUrl)} />
+				<Button text="VIEW PROJECT" className="mr-8" onClick={() => window.open(project.projectUrl)} />
 				<Button text="VIEW CODE" onClick={() => window.open(project.githubUrl)} />
 			</div>
 		</li>

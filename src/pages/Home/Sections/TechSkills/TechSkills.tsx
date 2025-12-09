@@ -2,7 +2,7 @@ import lines from "../../../../assets/lines.png"
 
 const TechSkills = () => {
 	return (
-		<section className="mt-18 relative">
+		<section className="mt-18 relative w-full">
 			<ul className="
 				grid 
 				place-content-center
@@ -31,7 +31,7 @@ const TechSkills = () => {
 					<h3 className="heading-l">SQL</h3>
 				</li>
 			</ul>
-			<div className="absolute h-full w-full top-0"> <img src={lines} alt="lines in the background" className="absolute right-[-450px] bottom-[-100px]" /> </div>
+			<div className="absolute h-full w-full top-0"> <img src={lines} alt="lines in the background" className="absolute min-w-[530px] min-h-[130px] right-[-450px] bottom-[-100px]" /> </div>
 
 			<hr className=" sm:hidden" />
 		</section>

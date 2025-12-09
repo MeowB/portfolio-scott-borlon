@@ -7,7 +7,7 @@ const Projects = () => {
 		<section>
 			<div className="flex justify-between items-center mt-35">
 				<h2 className="heading-xl">Projects</h2>
-				<Button text="CONTACT ME" props=""/>
+				<Button text="CONTACT ME"/>
 			</div>
 			<ul className="
 				grid

@@ -19,23 +19,23 @@ export const projects: projectType[] = [
 	},
 	{
 		title: "User Manager",
-		image: "", // replace with actual path
+		image: "",
 		githubUrl: "#",
 		projectUrl: "",
-		techstack: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+		techstack: [],
 	},
 	{
 		title: "E-Commerce",
-		image: "", // replace with actual path
+		image: "",
 		githubUrl: "#",
 		projectUrl: "",
-		techstack: ["Next.js", "TypeScript", "Stripe", "Tailwind CSS", "Prisma", "PostgreSQL"],
+		techstack: [],
 	},
 	{
 		title: "AI Content Manager",
-		image: "", // replace with actual path
+		image: "",
 		githubUrl: "#",
 		projectUrl: "",
-		techstack: ["React", "TypeScript", "OpenAI API", "Node.js", "Express", "MongoDB", "Redis"],
+		techstack: [],
 	},
 ];
