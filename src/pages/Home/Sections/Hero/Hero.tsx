@@ -47,7 +47,7 @@ const Hero = () => {
 				decoration-primary
 				hidden md:block
 				">
-					Scott Borlon
+					Scott BORLON
 				</h1>
 				<h2 className="heading-l pt-5">Turning designs into smooth, <br /> responsive interfaces.</h2>
 

@@ -6,8 +6,8 @@ const Contact = () => {
 		<section className="
 		relative 
 		flex flex-col xl:flex-row xl:gap-50
-		md:w-[70%] lg:w-full
-		md:m-auto
+		sm:w-[70%] xl:w-full
+		sm:m-auto
 		">
 			<div className="
 			text-center xl:text-left 
