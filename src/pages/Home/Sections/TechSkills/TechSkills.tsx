@@ -16,10 +16,13 @@ const TechSkills = () => {
 					<h3 className="heading-l">REACT</h3>
 				</li>
 				<li>
-					<h3 className="heading-l">TYPESCRIPT</h3>
+					<h3 className="heading-l">SCSS</h3>
 				</li>
 				<li>
 					<h3 className="heading-l">TAILWIND CSS</h3>
+				</li>
+				<li>
+					<h3 className="heading-l">TYPESCRIPT</h3>
 				</li>
 				<li>
 					<h3 className="heading-l">NODE.JS</h3>
@@ -29,6 +32,12 @@ const TechSkills = () => {
 				</li>
 				<li>
 					<h3 className="heading-l">SQL</h3>
+				</li>
+				<li>
+					<h3 className="heading-l">Python</h3>
+				</li>
+				<li>
+					<h3 className="heading-l">Flask</h3>
 				</li>
 			</ul>
 			<div className="absolute h-full w-full top-0"> <img src={lines} alt="lines in the background" className="absolute min-w-[530px] min-h-[130px] right-[-450px] bottom-[-100px]" /> </div>

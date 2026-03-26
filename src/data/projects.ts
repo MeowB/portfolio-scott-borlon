@@ -1,4 +1,5 @@
 import thumbnailLandingWebsite from '../assets/thumbnail-landing-website.png'
+import thumbnailPortfolioAnalyzer from '../assets/thumbnail-portfolio-analyzer.png'
 
 export type projectType = {
 	title: string;
@@ -18,21 +19,21 @@ export const projects: projectType[] = [
 		techstack: ["HTML", "SCSS"]
 	},
 	{
-		title: "User Manager",
+		title: "Portfolio Analyzer",
+		image: thumbnailPortfolioAnalyzer,
+		githubUrl: "https://github.com/MeowB/Investment-Portfolio-Analyzer",
+		projectUrl: "https://investment-portfolio-analyzer.vercel.app/",
+		techstack: ["Typescript", "React", "Python", "Flask", "SQLite"],
+	},
+	{
+		title: "Admin Management Dashboard Template.",
 		image: "",
 		githubUrl: "#",
 		projectUrl: "",
 		techstack: [],
 	},
 	{
-		title: "E-Commerce",
-		image: "",
-		githubUrl: "#",
-		projectUrl: "",
-		techstack: [],
-	},
-	{
-		title: "AI Content Manager",
+		title: "Full CRM",
 		image: "",
 		githubUrl: "#",
 		projectUrl: "",
