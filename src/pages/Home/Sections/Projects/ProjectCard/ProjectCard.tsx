@@ -63,7 +63,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 					gap-8
 					
 					">
-						<Button text="VIEW PROJECT" onClick={() => window.open(project.projectUrl)} />
+						<Button text="LIVE PROJECT" onClick={() => window.open(project.projectUrl)} />
 						<Button text="VIEW CODE" onClick={() => window.open(project.githubUrl)} />
 					</div>
 				</div>
@@ -80,7 +80,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 			mt-2
 			xl:hidden
 			">
-				<Button text="VIEW PROJECT" className="mr-8" onClick={() => window.open(project.projectUrl)} />
+				<Button text="LIVE PROJECT" className="mr-8" onClick={() => window.open(project.projectUrl)} />
 				<Button text="VIEW CODE" onClick={() => window.open(project.githubUrl)} />
 			</div>
 		</li>

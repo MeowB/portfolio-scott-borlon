@@ -49,11 +49,13 @@ const Hero = () => {
 				">
 					Scott <span className="text-primary">BORLON</span>
 				</h1>
-				<h2 className="heading-l pt-5">Turning designs into smooth, <br /> responsive interfaces.</h2>
+				<h2 className="heading-l pt-5">Turning designs into smooth, <br /> responsive full-stack application.</h2>
 
-				<p className="pt-8 max-w-88 self-center md:self-auto">Front-end developer based in Belgium. I focus on writing clean code, crafting thoughtful interactions, and building user experiences that feel intuitive and engaging.</p>
+				<p className="pt-8 max-w-88 self-center md:self-auto">Full-stack developer based in Belgium. I focus on writing clean code, building reliable backends, crafting intuitive user interfaces, and building user experiences that feel intuitive and engaging.</p>
 
-				<Button text="Contact me" className="self-center md:self-start mt-6" />
+				<a href="#contact">
+					<Button text="Contact me" className="self-center md:self-start mt-6" />
+				</a>
 			</div>
 			<hr className="mt-26" />
 		</section>

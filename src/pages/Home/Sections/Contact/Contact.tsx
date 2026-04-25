@@ -7,8 +7,9 @@ const Contact = () => {
 		relative 
 		flex flex-col xl:flex-row xl:gap-50
 		sm:w-[70%] xl:w-full
-		sm:m-auto
-		">
+		sm:m-auto "
+		id="contact"
+		>
 			<div className="
 			text-center xl:text-left 
 			lg:flex-1

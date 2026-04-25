@@ -23,20 +23,6 @@ export const projects: projectType[] = [
 		image: thumbnailPortfolioAnalyzer,
 		githubUrl: "https://github.com/MeowB/Investment-Portfolio-Analyzer",
 		projectUrl: "https://investment-portfolio-analyzer.vercel.app/",
-		techstack: ["Typescript", "React", "Python", "Flask", "SQLite"],
-	},
-	{
-		title: "Admin Management Dashboard Template.",
-		image: "",
-		githubUrl: "#",
-		projectUrl: "",
-		techstack: [],
-	},
-	{
-		title: "Full CRM",
-		image: "",
-		githubUrl: "#",
-		projectUrl: "",
-		techstack: [],
+		techstack: ["TypeScript", "React", "Python", "Flask", "SQLite"],
 	},
 ];
