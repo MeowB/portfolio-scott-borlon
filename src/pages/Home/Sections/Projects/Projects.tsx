@@ -42,9 +42,9 @@ const Projects = () => {
 					</ul>
 
 					<div className="flex flex-col flex-wrap gap-4 sm:flex-row">
-						<Button text="LIVE DEMO" />
-						<Button text="FRONT-END CODE" />
-						<Button text="BACK-END CODE" />
+						<a href="https://crm-frontend-gamma-inky.vercel.app/" target="_blank"><Button text="LIVE DEMO" /></a>
+						<a href="https://github.com/MeowB/user-manager--CRM-frontend" target="_blank"><Button text="FRONT-END CODE" /></a>
+						<a href="https://github.com/MeowB/user-manager--CRM-backend" target="_blank"><Button text="BACK-END CODE" /></a>
 					</div>
 				</div>
 			</div>
